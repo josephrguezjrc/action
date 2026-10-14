@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/cactus/block/0"
+      },
+      {
+        "model": "block/cactus/block/1"
+      },
+      {
+        "model": "block/cactus/block/2"
+      },
+      {
+        "model": "block/cactus/block/3"
+      }
+    ]
+  }
+}

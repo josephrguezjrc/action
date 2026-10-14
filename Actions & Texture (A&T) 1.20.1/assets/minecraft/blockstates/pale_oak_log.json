@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/pale_oak_log/block/0"
+      },
+      {
+        "model": "block/pale_oak_log/block/1"
+      }
+    ]
+  }
+}

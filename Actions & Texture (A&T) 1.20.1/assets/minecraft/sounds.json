@@ -1,0 +1,40 @@
+{
+    "entity.player.attack.sweep": { "sounds": [
+        {"name": "sweep/hit1", "volume": 2},
+        {"name": "sweep/hit2", "volume": 2},
+        {"name": "sweep/hit3", "volume": 2},
+        {"name": "sweep/hit4", "volume": 2},
+        {"name": "sweep/hit5", "volume": 2},
+        {"name": "sweep/hit6", "volume": 2},
+        {"name": "sweep/hit7", "volume": 2},
+        {"name": "sweep/hit8", "volume": 2},
+        {"name": "sweep/hit9", "volume": 2},
+        {"name": "sweep/hit10", "volume": 2},
+        {"name": "sweep/hit11", "volume": 2},
+        {"name": "sweep/hit12", "volume": 2},
+        {"name": "sweep/hit13", "volume": 2},
+        {"name": "sweep/hit14", "volume": 2},
+        {"name": "sweep/hit15", "volume": 2},
+        {"name": "sweep/hit16", "volume": 2},
+        {"name": "sweep/hit17", "volume": 2},
+        {"name": "sweep/hit18", "volume": 2},
+        {"name": "sweep/hit19", "volume": 2},
+        {"name": "sweep/hit20", "volume": 2},
+        {"name": "sweep/hit21", "volume": 2},
+        {"name": "sweep/hit22", "volume": 2},
+        {"name": "sweep/hit23", "volume": 2},
+        {"name": "sweep/hit24", "volume": 2},
+        {"name": "sweep/hit25", "volume": 2},
+        {"name": "sweep/hit26", "volume": 2},
+        {"name": "sweep/hit27", "volume": 2},
+        {"name": "sweep/hit28", "volume": 2},
+        {"name": "sweep/hit29", "volume": 2},
+        {"name": "sweep/hit30", "volume": 2}
+    ]},
+    "entity.player.attack.nodamage": { "sounds": [
+        {"name": "nodamage/hit1", "volume": 2},
+        {"name": "nodamage/hit2", "volume": 2},
+        {"name": "nodamage/hit3", "volume": 2},
+        {"name": "nodamage/hit4", "volume": 2}
+    ]}
+}

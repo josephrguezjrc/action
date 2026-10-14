@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [1024, 1024],
+	"textures": {
+		"0": "item/textures"
+	},
+	"elements": [
+		{
+			"name": "mfgzorf",
+			"from": [5, 0, 5],
+			"to": [11, 8, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.40625, 9.375, 9.49969, 9.49969], "texture": "#0"},
+				"east": {"uv": [9.40625, 9.375, 9.49969, 9.49969], "texture": "#0"},
+				"south": {"uv": [9.40625, 9.375, 9.49969, 9.49969], "texture": "#0"},
+				"west": {"uv": [9.40625, 9.375, 9.49969, 9.49969], "texture": "#0"},
+				"up": {"uv": [9.49969, 9.37469, 9.40625, 9.28125], "texture": "#0"},
+				"down": {"uv": [9.59344, 9.28125, 9.5, 9.37469], "texture": "#0"}
+			}
+		},
+		{
+			"name": "mfgzorf",
+			"from": [4.75, -0.25, 4.75],
+			"to": [11.25, 8.25, 11.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.40625, 9.60938, 9.49969, 9.73406], "texture": "#0"},
+				"east": {"uv": [9.59344, 9.60938, 9.5, 9.73406], "texture": "#0"},
+				"south": {"uv": [9.59375, 9.60938, 9.68719, 9.73406], "texture": "#0"},
+				"west": {"uv": [9.5, 9.60938, 9.59344, 9.73406], "texture": "#0"},
+				"up": {"uv": [9.49969, 9.60906, 9.40625, 9.51563], "texture": "#0"},
+				"down": {"uv": [9.59344, 9.51563, 9.5, 9.60906], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3.5, 1.25],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3.5, 1.25],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"firstperson_righthand": {
+			"rotation": [-1.1, 95, -20],
+			"translation": [0, 6.5, 1.75],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-1.1, 95, -20],
+			"translation": [0, 6.5, 1.75],
+			"scale": [0.45, 0.45, 0.45]
+		}
+	},
+	"groups": [
+		{
+			"name": "root",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "bgzlujc",
+					"origin": [8, 0, 8],
+					"color": 1,
+					"children": [
+						{
+							"name": "mfgzorf",
+							"origin": [8, 0, 8],
+							"color": 2,
+							"children": [0, 1]
+						}
+					]
+				}
+			]
+		}
+	]
+}

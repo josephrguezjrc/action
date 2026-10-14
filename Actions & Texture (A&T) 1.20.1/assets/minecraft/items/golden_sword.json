@@ -1,0 +1,263 @@
+{
+  "model": 
+  {
+    "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "mending"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "sharpness"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "bane_of_arthropods"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "channeling"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "binding_curse"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "vanishing_curse"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "efficiency"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "fire_aspect"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "fortune"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "knockback"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "looting"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "loyalty"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "riptide"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "silk_touch"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "smite"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "sweeping_edge"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "unbreaking"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "condition",
+    "property": "component",
+    "predicate": "enchantments",
+    "value": [
+      {
+        "enchantments": "flame"
+      }
+    ],
+    "on_true": {
+      "type": "model",
+      "model": "item/golden_sword_enchanted"
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/golden_sword"
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+  }
+}

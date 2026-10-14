@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/birch_wood/block/0"
+      },
+      {
+        "model": "block/birch_wood/block/1"
+      },
+      {
+        "model": "block/birch_wood/block/2"
+      },
+      {
+        "model": "block/birch_wood/block/3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"credit": "Created by BlockBench",
+	"textures": {
+		"particle": "block/pale_oak_trapdoor",
+		"texture": "block/pale_oak_trapdoor",
+		"extra": "block/pale_oak_trapdoor_extra"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 3, 16],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 3], "texture": "#extra", "cullface": "north"},
+				"east": {"uv": [16, 6, 0, 9], "rotation": 180, "texture": "#extra"},
+				"south": {"uv": [16, 0, 13, 3], "texture": "#extra", "cullface": "south"},
+				"west": {"uv": [0, 3, 16, 6], "texture": "#extra", "cullface": "west"},
+				"up": {"uv": [0, 0, 3, 16], "texture": "#texture"},
+				"down": {"uv": [16, 16, 13, 0], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"from": [13, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 3], "texture": "#extra", "cullface": "north"},
+				"east": {"uv": [16, 3, 0, 6], "texture": "#extra", "cullface": "east"},
+				"south": {"uv": [3, 0, 0, 3], "texture": "#extra", "cullface": "south"},
+				"west": {"uv": [0, 6, 16, 9], "texture": "#extra"},
+				"up": {"uv": [13, 0, 16, 16], "texture": "#texture"},
+				"down": {"uv": [3, 16, 0, 0], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3, 0, 0],
+			"to": [13, 3, 3],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 3], "texture": "#extra", "cullface": "north"},
+				"south": {"uv": [13, 12, 3, 15], "texture": "#extra"},
+				"up": {"uv": [3, 0, 13, 3], "texture": "#texture"},
+				"down": {"uv": [13, 3, 3, 0], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3, 0, 13],
+			"to": [13, 3, 16],
+			"faces": {
+				"north": {"uv": [3, 9, 13, 12], "texture": "#extra"},
+				"south": {"uv": [13, 0, 3, 3], "texture": "#extra", "cullface": "south"},
+				"up": {"uv": [3, 13, 13, 16], "texture": "#texture"},
+				"down": {"uv": [13, 16, 3, 13], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3, 0.5, 3],
+			"to": [13, 2.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 3]},
+			"faces": {
+				"up": {"uv": [2, 2, 13, 13], "texture": "#texture"},
+				"down": {"uv": [2, 2, 13, 13], "texture": "#texture", "cullface": "down"}
+			}
+		}
+	]
+}

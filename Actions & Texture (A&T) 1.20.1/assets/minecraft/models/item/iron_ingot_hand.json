@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [1024, 1024],
+	"textures": {
+		"1": "item/items1",
+		"particle": "item/items1"
+	},
+	"elements": [
+		{
+			"name": "efochwy",
+			"from": [13.2, 4.2, 11.2],
+			"to": [2.8, -0.2, 4.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [5.17188, 15.18751, 5.18719, 15.20282], "texture": "#1"},
+				"east": {"uv": [5.17188, 15.18751, 5.18719, 15.20282], "texture": "#1"},
+				"south": {"uv": [5.17188, 15.18751, 5.18719, 15.20282], "texture": "#1"},
+				"west": {"uv": [5.17188, 15.18751, 5.18719, 15.20282], "texture": "#1"},
+				"up": {"uv": [5.17188, 15.18751, 5.18719, 15.20282], "texture": "#1"},
+				"down": {"uv": [5.17188, 15.18751, 5.18719, 15.20282], "texture": "#1"}
+			}
+		},
+		{
+			"name": "efochwy",
+			"from": [3, 0, 5],
+			"to": [13, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [5.14063, 15.20313, 5.29656, 15.26531], "texture": "#1"},
+				"east": {"uv": [5.14063, 15.26563, 5.23406, 15.32781], "texture": "#1"},
+				"south": {"uv": [5.14063, 15.20313, 5.29656, 15.26531], "texture": "#1"},
+				"west": {"uv": [5.14063, 15.26563, 5.23406, 15.32781], "texture": "#1"},
+				"up": {"uv": [5.14063, 15.32813, 5.29656, 15.42156], "texture": "#1"},
+				"down": {"uv": [5.29688, 15.26563, 5.39031, 15.42156], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.47, 0.47, 0.47]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.47, 0.47, 0.47]
+		},
+		"firstperson_righthand": {
+			"rotation": [-26.62, 74.95, 12.43],
+			"translation": [0, 6.65, 2.75],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-26.62, 74.95, 12.43],
+			"translation": [0, 6.65, 2.75],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"gui": {
+			"rotation": [25.82, 11.04, -22.79],
+			"translation": [2.5, 4.75, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "root",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "bgzlujc",
+					"origin": [0, 0, 0],
+					"color": 1,
+					"children": [
+						{
+							"name": "efochwy",
+							"origin": [0, 0, 0],
+							"color": 2,
+							"children": [0, 1]
+						}
+					]
+				}
+			]
+		}
+	]
+}

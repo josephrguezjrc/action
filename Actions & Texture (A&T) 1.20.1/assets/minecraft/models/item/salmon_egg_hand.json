@@ -1,0 +1,141 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [1024, 1024],
+	"textures": {
+		"0": "item/textures"
+	},
+	"elements": [
+		{
+			"name": "clqixdv",
+			"from": [5, 0, 5],
+			"to": [11, 7, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.40625, 13.92188, 9.49969, 14.03094], "texture": "#0"},
+				"east": {"uv": [9.5, 13.92188, 9.59344, 14.03094], "texture": "#0"},
+				"south": {"uv": [9.40625, 14.03125, 9.49969, 14.14031], "texture": "#0"},
+				"west": {"uv": [9.5, 14.03125, 9.59344, 14.14031], "texture": "#0"},
+				"up": {"uv": [9.68719, 14.01531, 9.59375, 13.92188], "texture": "#0"},
+				"down": {"uv": [9.68719, 14.01563, 9.59375, 14.10906], "texture": "#0"}
+			}
+		},
+		{
+			"name": "clqixdv",
+			"from": [6, 0, 4],
+			"to": [10, 3, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.40625, 14.14063, 9.46844, 14.18719], "texture": "#0"},
+				"east": {"uv": [9.57813, 14.14063, 9.59344, 14.18719], "texture": "#0"},
+				"south": {"uv": [9.46875, 14.14063, 9.53094, 14.18719], "texture": "#0"},
+				"west": {"uv": [9.59375, 14.17188, 9.60906, 14.21844], "texture": "#0"},
+				"up": {"uv": [9.71844, 14.12469, 9.65625, 14.10938], "texture": "#0"},
+				"down": {"uv": [9.67156, 14.17188, 9.60938, 14.18719], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bcxznkw1",
+			"from": [11, 2, 6.5],
+			"to": [14, 2, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.45281, 13.92156, 9.40625, 13.92125], "texture": "#0"},
+				"east": {"uv": [9.45281, 13.92156, 9.40625, 13.92125], "texture": "#0"},
+				"south": {"uv": [9.45281, 13.92156, 9.40625, 13.92125], "texture": "#0"},
+				"west": {"uv": [9.45281, 13.92156, 9.40625, 13.92125], "texture": "#0"},
+				"up": {"uv": [9.53125, 14.18719, 9.57781, 14.14063], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bcxznkw2",
+			"from": [2, 2, 6.5],
+			"to": [5, 2, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.40625, 13.92156, 9.45281, 13.92125], "texture": "#0"},
+				"east": {"uv": [9.40625, 13.92156, 9.45281, 13.92125], "texture": "#0"},
+				"south": {"uv": [9.40625, 13.92156, 9.45281, 13.92125], "texture": "#0"},
+				"west": {"uv": [9.40625, 13.92156, 9.45281, 13.92125], "texture": "#0"},
+				"up": {"uv": [9.57781, 14.18719, 9.53125, 14.14063], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oafrxdu",
+			"from": [6, 7, 8],
+			"to": [10, 11, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.59375, 14.10938, 9.65594, 14.17156], "texture": "#0"},
+				"east": {"uv": [9.40594, 13.92188, 9.40563, 13.98406], "texture": "#0"},
+				"west": {"uv": [9.40594, 13.92188, 9.40563, 13.98406], "texture": "#0"},
+				"up": {"uv": [9.46844, 13.92125, 9.40625, 13.92156], "texture": "#0"},
+				"down": {"uv": [9.46844, 13.92125, 9.40625, 13.92156], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3.5, 1.25],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3.5, 1.25],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"firstperson_righthand": {
+			"rotation": [-1.1, 95, -20],
+			"translation": [0, 6.5, 1.75],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-1.1, 95, -20],
+			"translation": [0, 6.5, 1.75],
+			"scale": [0.45, 0.45, 0.45]
+		}
+	},
+	"groups": [
+		{
+			"name": "root",
+			"origin": [8, -1, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "bgzlujc",
+					"origin": [8, -1, 8],
+					"color": 1,
+					"children": [
+						{
+							"name": "clqixdv",
+							"origin": [8, 0, 8],
+							"color": 2,
+							"children": [
+								0,
+								1,
+								{
+									"name": "bcxznkw1",
+									"origin": [11, 2, 8],
+									"color": 3,
+									"children": [2]
+								},
+								{
+									"name": "bcxznkw2",
+									"origin": [5, 2, 8],
+									"color": 4,
+									"children": [3]
+								},
+								{
+									"name": "oafrxdu",
+									"origin": [8, 7, 8],
+									"color": 5,
+									"children": [4]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

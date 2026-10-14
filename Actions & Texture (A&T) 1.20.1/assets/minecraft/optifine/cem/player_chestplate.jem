@@ -1,0 +1,167 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 1, 0],
+			"submodels": [
+				{
+					"id": "body5",
+					"invertAxis": "xy",
+					"translate": [3.4, -21.5, -10.5]
+				},
+				{
+					"id": "layer",
+					"invertAxis": "xy",
+					"translate": [0.25, 21.3, 0],
+					"boxes": [
+						{
+							"coordinates": [-4.75, -35.3, -2.51, 9, 13, 5],
+							"uvNorth": [5, 43, 14, 56],
+							"uvEast": [0, 43, 5, 56],
+							"uvSouth": [19, 43, 28, 56],
+							"uvWest": [14, 43, 19, 56],
+							"uvUp": [14, 43, 5, 38],
+							"uvDown": [23, 38, 14, 43]
+						},
+						{
+							"coordinates": [-5.25, -35.3, -3.01, 10, 14, 6],
+							"uvNorth": [36, 38, 46, 52],
+							"uvEast": [30, 38, 36, 52],
+							"uvSouth": [52, 38, 62, 52],
+							"uvWest": [46, 38, 52, 52],
+							"uvUp": [46, 38, 36, 32],
+							"uvDown": [56, 32, 46, 38]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [6, 2, 0.5],
+			"boxes": [
+				{
+					"coordinates": [-10, -4, -3, 5, 5, 5],
+					"uvNorth": [67, 25, 72, 30],
+					"uvEast": [62, 25, 67, 30],
+					"uvSouth": [77, 25, 82, 30],
+					"uvWest": [72, 25, 77, 30],
+					"uvUp": [72, 25, 67, 20],
+					"uvDown": [109, 117, 104, 123]
+				},
+				{
+					"coordinates": [-10.49, -4.99, -3.5, 5.5, 6, 6],
+					"uvNorth": [46, 6, 52, 12],
+					"uvEast": [40, 6, 46, 12],
+					"uvSouth": [58, 6, 64, 12],
+					"uvWest": [52, 6, 58, 12],
+					"uvUp": [52, 6, 46, 0],
+					"uvDown": [58, 0, 52, 6]
+				}
+			],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [-12, 2, -1.5],
+					"rotate": [0, 0, -17.5],
+					"boxes": [
+						{
+							"coordinates": [-0.2, -3.6, -2.5, 7, 4, 7],
+							"uvNorth": [96, 37, 88, 41],
+							"uvEast": [0, 0, 6, 5],
+							"uvSouth": [110, 37, 102, 41],
+							"uvWest": [82, 37, 88, 42],
+							"uvUp": [88, 31, 96, 37],
+							"uvDown": [96, 31, 104, 37]
+						}
+					]
+				},
+				{
+					"id": "bone9",
+					"invertAxis": "xy",
+					"translate": [-6, -2, -0.5],
+					"boxes": [
+						{
+							"coordinates": [-3, -2, -2.5, 4, 5, 5],
+							"uvNorth": [95, 123, 99, 128],
+							"uvEast": [89, 123, 95, 128],
+							"uvSouth": [105, 123, 109, 128],
+							"uvWest": [99, 123, 105, 128],
+							"uvUp": [99, 123, 95, 117],
+							"uvDown": [114, 117, 110, 123]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [1, 2, 0.25],
+			"rotate": [0, -180, 0],
+			"boxes": [
+				{
+					"coordinates": [-3, -4, -2.5, 5, 5, 5],
+					"uvNorth": [72, 43, 67, 48],
+					"uvEast": [72, 43, 77, 48],
+					"uvSouth": [82, 43, 77, 48],
+					"uvWest": [62, 43, 67, 48],
+					"uvUp": [67, 43, 72, 38],
+					"uvDown": [72, 38, 77, 43]
+				},
+				{
+					"coordinates": [-3.49, -4.99, -3, 5.5, 6, 6],
+					"uvNorth": [64, 6, 58, 12],
+					"uvEast": [40, 6, 46, 12],
+					"uvSouth": [52, 6, 46, 12],
+					"uvWest": [52, 6, 58, 12],
+					"uvUp": [76, 6, 70, 0],
+					"uvDown": [76, 0, 82, 6]
+				}
+			],
+			"submodels": [
+				{
+					"id": "bone2",
+					"invertAxis": "xy",
+					"translate": [-6, -2, -0.25],
+					"rotate": [0, 0, -17.5],
+					"boxes": [
+						{
+							"coordinates": [-0.3, 0.5, -3.25, 7, 4, 7],
+							"uvNorth": [102, 37, 110, 41],
+							"uvEast": [126, 40, 128, 42],
+							"uvSouth": [88, 37, 96, 41],
+							"uvWest": [82, 37, 88, 41],
+							"uvUp": [88, 31, 96, 37],
+							"uvDown": [0, 0, 2, 2]
+						}
+					]
+				},
+				{
+					"id": "bone10",
+					"invertAxis": "xy",
+					"translate": [-1, -2, -0.25],
+					"boxes": [
+						{
+							"coordinates": [-1, -2, -2.25, 4, 5, 5],
+							"uvNorth": [128, 123, 124, 128],
+							"uvEast": [114, 123, 108, 128],
+							"uvSouth": [118, 123, 114, 128],
+							"uvWest": [99, 123, 105, 128],
+							"uvUp": [99, 117, 95, 123],
+							"uvDown": [114, 123, 110, 117]
+						}
+					]
+				}
+			]
+		}
+	]
+}

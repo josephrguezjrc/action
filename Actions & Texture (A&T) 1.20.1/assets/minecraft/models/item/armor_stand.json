@@ -1,0 +1,172 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [20, 20],
+	"textures": {
+		"0": "item/armor_stand_hand",
+		"particle": "item/armor_stand_hand"
+	},
+	"elements": [
+		{
+			"name": "stand",
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 6.4, 9.6], "texture": "#0"},
+				"east": {"uv": [0, 8, 6.4, 9.6], "texture": "#0"},
+				"south": {"uv": [0, 8, 6.4, 9.6], "texture": "#0"},
+				"west": {"uv": [0, 8, 6.4, 9.6], "texture": "#0"},
+				"up": {"uv": [6.4, 7.2, 12.8, 13.6], "texture": "#0"},
+				"down": {"uv": [0, 9.6, 6.4, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "first",
+			"from": [7, 2, 7],
+			"to": [9, 6, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [10.4, 3.2, 12, 6.4], "texture": "#0"},
+				"east": {"uv": [12, 3.2, 10.4, 6.4], "texture": "#0"},
+				"south": {"uv": [10.4, 3.2, 12, 6.4], "texture": "#0"},
+				"west": {"uv": [12, 3.2, 10.4, 6.4], "texture": "#0"},
+				"up": {"uv": [13.6, 3.2, 15.2, 4.8], "texture": "#0"},
+				"down": {"uv": [13.6, 3.2, 15.2, 4.8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [6, 6, 6],
+			"to": [10, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 7.2, 7.2], "texture": "#0"},
+				"east": {"uv": [7.2, 4, 10.4, 7.2], "texture": "#0"},
+				"south": {"uv": [4, 4, 7.2, 7.2], "texture": "#0"},
+				"west": {"uv": [4, 4, 7.2, 7.2], "texture": "#0"},
+				"up": {"uv": [12.8, 0, 16, 3.2], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [5.675, 9.825, 5.675],
+			"to": [10.325, 14.475, 10.325],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"up": {"uv": [8, 0, 4, 4], "texture": "#0"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "left",
+			"from": [6.2, 2.5, 7],
+			"to": [8.2, 6.5, 9],
+			"rotation": {"angle": 45, "axis": "z", "origin": [5, 11, 0]},
+			"faces": {
+				"north": {"uv": [11.2, 0, 12.8, 3.2], "texture": "#0"},
+				"east": {"uv": [11.2, 0, 12, 3.2], "texture": "#0"},
+				"south": {"uv": [12.83094, 0, 11.23094, 3.2], "texture": "#0"},
+				"west": {"uv": [12, 0, 12.8, 3.2], "texture": "#0"},
+				"up": {"uv": [12.83094, 0, 11.23094, 1.6], "texture": "#0"},
+				"down": {"uv": [13.63093, 4.8, 12.03093, 3.2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [-0.4, 10.9, 7],
+			"to": [3.6, 12.9, 9],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 14, 0]},
+			"faces": {
+				"north": {"uv": [12.8, 0, 11.2, 3.2], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [9.6, 6.4, 11.2, 4.8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.2, 0, 12.8, 3.2], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [12, 3.2, 10.4, 4.8], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [11.2, 0, 12, 3.2], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [12, 0, 12.8, 3.2], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4, 1.75],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4, 1.75],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [-47.85, -83.32, -26.24],
+			"translation": [1.5, 6.5, 2],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-47.85, -83.32, -26.24],
+			"translation": [1.5, 6.5, 2],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "armor",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "body",
+					"origin": [8, 0, 8],
+					"color": 1,
+					"children": [
+						{
+							"name": "parts",
+							"origin": [8, 0, 8],
+							"color": 2,
+							"children": [
+								0,
+								{
+									"name": "body_armor",
+									"origin": [8, 2, 8],
+									"color": 3,
+									"children": [
+										1,
+										{
+											"name": "above",
+											"origin": [8, 6, 8],
+											"color": 4,
+											"children": [
+												2,
+												{
+													"name": "head",
+													"origin": [8, 9.85, 8],
+													"color": 5,
+													"children": [3]
+												},
+												{
+													"name": "left",
+													"origin": [10.25, 8.75, 8],
+													"color": 6,
+													"children": [4]
+												},
+												{
+													"name": "right",
+													"origin": [10.25, 8.75, 8],
+													"color": 6,
+													"children": [5]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

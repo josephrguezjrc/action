@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "facing=east": [
+      { "model": "block/jack_o_lantern/block/0", "y": 90 },
+      { "model": "block/jack_o_lantern/block/1", "y": 90 },
+      { "model": "block/jack_o_lantern/block/2", "y": 90 },
+      { "model": "block/jack_o_lantern/block/3", "y": 90 },
+      { "model": "block/jack_o_lantern/block/4", "y": 90 },
+      { "model": "block/jack_o_lantern/block/5", "y": 90 },
+      { "model": "block/jack_o_lantern/block/6", "y": 90 },
+      { "model": "block/jack_o_lantern/block/7", "y": 90 },
+      { "model": "block/jack_o_lantern/block/8", "y": 90 }
+    ],
+
+    "facing=north": [
+      { "model": "block/jack_o_lantern/block/0" },
+      { "model": "block/jack_o_lantern/block/1" },
+      { "model": "block/jack_o_lantern/block/2" },
+      { "model": "block/jack_o_lantern/block/3" },
+      { "model": "block/jack_o_lantern/block/4" },
+      { "model": "block/jack_o_lantern/block/5" },
+      { "model": "block/jack_o_lantern/block/6" },
+      { "model": "block/jack_o_lantern/block/7" },
+      { "model": "block/jack_o_lantern/block/8" }
+    ],
+
+    "facing=south": [
+      { "model": "block/jack_o_lantern/block/0", "y": 180 },
+      { "model": "block/jack_o_lantern/block/1", "y": 180 },
+      { "model": "block/jack_o_lantern/block/2", "y": 180 },
+      { "model": "block/jack_o_lantern/block/3", "y": 180 },
+      { "model": "block/jack_o_lantern/block/4", "y": 180 },
+      { "model": "block/jack_o_lantern/block/5", "y": 180 },
+      { "model": "block/jack_o_lantern/block/6", "y": 180 },
+      { "model": "block/jack_o_lantern/block/7", "y": 180 },
+      { "model": "block/jack_o_lantern/block/8", "y": 180 }
+    ],
+
+    "facing=west": [
+      { "model": "block/jack_o_lantern/block/0", "y": 270 },
+      { "model": "block/jack_o_lantern/block/1", "y": 270 },
+      { "model": "block/jack_o_lantern/block/2", "y": 270 },
+      { "model": "block/jack_o_lantern/block/3", "y": 270 },
+      { "model": "block/jack_o_lantern/block/4", "y": 270 },
+      { "model": "block/jack_o_lantern/block/5", "y": 270 },
+      { "model": "block/jack_o_lantern/block/6", "y": 270 },
+      { "model": "block/jack_o_lantern/block/7", "y": 270 },
+      { "model": "block/jack_o_lantern/block/8", "y": 270 }
+    ]
+  }
+}

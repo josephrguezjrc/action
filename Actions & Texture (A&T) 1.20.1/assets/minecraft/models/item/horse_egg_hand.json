@@ -1,0 +1,133 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [1024, 1024],
+	"textures": {
+		"layer0": "item/textures"
+	},
+	"elements": [
+		{
+			"name": "afqytsa",
+			"from": [5, 0, 5],
+			"to": [11, 7, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.40625, 7.21875, 9.49969, 7.32781], "texture": "#layer0"},
+				"east": {"uv": [9.5, 7.21875, 9.59344, 7.32781], "texture": "#layer0"},
+				"south": {"uv": [9.40625, 7.34375, 9.49969, 7.45281], "texture": "#layer0"},
+				"west": {"uv": [9.5, 7.34375, 9.59344, 7.45281], "texture": "#layer0"},
+				"up": {"uv": [9.49969, 7.56219, 9.40625, 7.46875], "texture": "#layer0"},
+				"down": {"uv": [9.59344, 7.46875, 9.5, 7.56219], "texture": "#layer0"}
+			}
+		},
+		{
+			"name": "afqytsa",
+			"from": [6, 0, 3],
+			"to": [10, 3, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.6875, 7.3125, 9.74969, 7.35906], "texture": "#layer0"},
+				"east": {"uv": [9.71875, 7.21875, 9.74969, 7.26531], "texture": "#layer0"},
+				"south": {"uv": [9.6875, 7.35938, 9.74969, 7.40594], "texture": "#layer0"},
+				"west": {"uv": [9.71875, 7.26563, 9.74969, 7.31219], "texture": "#layer0"},
+				"up": {"uv": [9.74969, 7.43719, 9.6875, 7.40625], "texture": "#layer0"},
+				"down": {"uv": [9.74969, 7.4375, 9.6875, 7.46844], "texture": "#layer0"}
+			}
+		},
+		{
+			"name": "afqytsa",
+			"from": [6.8, 0.8, 7.8],
+			"to": [9.2, 8.2, 12.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.59375, 7.46875, 9.62469, 7.57781], "texture": "#layer0"},
+				"east": {"uv": [9.59375, 7.21875, 9.65594, 7.32781], "texture": "#layer0"},
+				"south": {"uv": [9.625, 7.46875, 9.65594, 7.57781], "texture": "#layer0"},
+				"west": {"uv": [9.59375, 7.34375, 9.65594, 7.45281], "texture": "#layer0"},
+				"up": {"uv": [9.68719, 7.53094, 9.65625, 7.46875], "texture": "#layer0"},
+				"down": {"uv": [9.71844, 7.21875, 9.6875, 7.28094], "texture": "#layer0"}
+			}
+		},
+		{
+			"name": "nvglgif",
+			"from": [4.5, 6, 7.5],
+			"to": [6.5, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [5.5, 8, 8]},
+			"faces": {
+				"north": {"uv": [9.6875, 7.46875, 9.71844, 7.51531], "texture": "#layer0"},
+				"east": {"uv": [9.71875, 7.46875, 9.73406, 7.51531], "texture": "#layer0"},
+				"south": {"uv": [9.6875, 7.51563, 9.71844, 7.56219], "texture": "#layer0"},
+				"west": {"uv": [9.71875, 7.51563, 9.73406, 7.56219], "texture": "#layer0"},
+				"up": {"uv": [9.76531, 7.48406, 9.73438, 7.46875], "texture": "#layer0"},
+				"down": {"uv": [9.76531, 7.48438, 9.73438, 7.49969], "texture": "#layer0"}
+			}
+		},
+		{
+			"name": "nvglgif",
+			"from": [9.5, 6, 7.5],
+			"to": [11.5, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [10.5, 8, 8]},
+			"faces": {
+				"north": {"uv": [9.71844, 7.46875, 9.6875, 7.51531], "texture": "#layer0"},
+				"east": {"uv": [9.73406, 7.51563, 9.71875, 7.56219], "texture": "#layer0"},
+				"south": {"uv": [9.71844, 7.51563, 9.6875, 7.56219], "texture": "#layer0"},
+				"west": {"uv": [9.73406, 7.46875, 9.71875, 7.51531], "texture": "#layer0"},
+				"up": {"uv": [9.73438, 7.48406, 9.76531, 7.46875], "texture": "#layer0"},
+				"down": {"uv": [9.73438, 7.48438, 9.76531, 7.49969], "texture": "#layer0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3.5, 1.25],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3.5, 1.25],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"firstperson_righthand": {
+			"rotation": [-1.1, 95, -20],
+			"translation": [0, 6.5, 1.75],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-1.1, 95, -20],
+			"translation": [0, 6.5, 1.75],
+			"scale": [0.45, 0.45, 0.45]
+		}
+	},
+	"groups": [
+		{
+			"name": "root",
+			"origin": [8, -1, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "bgzlujc",
+					"origin": [8, -1, 8],
+					"color": 1,
+					"children": [
+						{
+							"name": "afqytsa",
+							"origin": [8, 0, 8],
+							"color": 2,
+							"children": [
+								0,
+								1,
+								2,
+								{
+									"name": "nvglgif",
+									"origin": [8, 6.50428, 8],
+									"color": 3,
+									"children": [3, 4]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

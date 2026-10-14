@@ -1,0 +1,89 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [96, 96],
+	"texture": "drowned_baby.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-5, 12, -4, 10, 12, 8], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-9, 12, -3, 4, 12, 6], "textureOffset": [0, 36]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [5, 12, -3, 4, 12, 6], "textureOffset": [0, 36]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [-6, 0, -4, 6, 12, 8],
+					"uvNorth": [46, 42, 52, 54],
+					"uvEast": [40, 42, 46, 54],
+					"uvSouth": [58, 42, 64, 54],
+					"uvWest": [58, 42, 52, 54],
+					"uvUp": [52, 42, 46, 36],
+					"uvDown": [58, 36, 52, 42]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 0, -4, 6, 12, 8],
+					"uvNorth": [52, 24, 46, 36],
+					"uvEast": [46, 24, 40, 36],
+					"uvSouth": [64, 24, 58, 36],
+					"uvWest": [58, 24, 52, 36],
+					"uvUp": [52, 24, 46, 18],
+					"uvDown": [58, 18, 52, 24]
+				}
+			]
+		}
+	]
+}
